@@ -1,0 +1,38 @@
+.projects-container {
+    margin-left: 6rem;
+
+}
+
+
+.projects-title,.container-git h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 5rem;
+}
+
+.projects-card {
+    margin-top: 3rem;
+}
+
+.container-git {
+    background-color: #6E07F3;
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    height: 50vh;
+}
+
+
+.container-git .icon-git{
+    color: white;
+    font-size: 5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.container-git h2{
+    color: white;
+}
+

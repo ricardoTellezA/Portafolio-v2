@@ -1,0 +1,28 @@
+
+
+
+.about{
+    background-color:  #6E07F3;
+    color: white;
+    margin-top: 10rem;
+    height: 40vh;
+}
+
+.about h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 5rem;
+    
+}
+
+.about p{
+    text-align: center;
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    font-weight: 500;
+    font-family: 'Outfit', sans-serif;
+}
