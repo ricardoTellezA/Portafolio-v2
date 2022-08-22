@@ -14,8 +14,9 @@
 
 .nav {
     display: flex;
+    justify-content: end;
     align-items: center;
-    width: 100%;
+    width: 88%;
     height: 100%;
     list-style: none;
     font-family: 'Outfit', sans-serif;

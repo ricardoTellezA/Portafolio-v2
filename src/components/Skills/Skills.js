@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Row } from "antd";
-import ReactIcon from "../../img/icons/react-native-1.svg";
+import ReactIcon from "../../img/icons/react-2.svg";
 import GatsbyIcon from "../../img/icons/gatsby.svg";
 import NativeIcon from "../../img/icons/react-native-1.svg";
-// import NextIcon from "../../img/icons/next-js.svg";
+import NextIcon from "../../img/icons/next-js.svg";
 import FirebaseIcon from "../../img/icons/firebase-1.svg";
 import NodeIcon from "../../img/icons/nodejs.svg";
 import GrapqlIcon from "../../img/icons/GraphQL_Logo.svg";
@@ -82,6 +82,9 @@ const icons = [
   {
     icon: MysqlIcon,
   },
+  {
+    icon: NextIcon,
+  }
 ];
 
 const Skills = ({ scrollSkills }) => {

@@ -12,6 +12,7 @@
     margin-top: 5rem;
 }
 
+
 .projects-card {
     margin-top: 3rem;
 }
@@ -36,3 +37,22 @@
     color: white;
 }
 
+.projects-button{
+    background-color: #6E07F3 !important;
+    border-color: #6E07F3 !important;
+    margin-top: 7px;
+    border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+    .projects-container {
+        margin-left: 5rem;
+    }
+    
+    .container-image{
+        display: block;
+        text-align: center ;
+    }
+    
+
+}

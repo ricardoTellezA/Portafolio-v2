@@ -12,7 +12,7 @@ const Proyects = ({ scrollProyects }) => {
       <Row className="projects-container">
         {projects.map((project) => (
           <Col span={6}>
-            <Space size={"middle"}>
+            <Space className="container-image" size={"large"}>
               <Image
                 className="projects-card"
                 width={250}
@@ -23,6 +23,7 @@ const Proyects = ({ scrollProyects }) => {
               />
               <Button
                 type="primary"
+                className="projects-button"
                 onClick={() => {
                   window.open(project.url, "_blank");
                 }}
